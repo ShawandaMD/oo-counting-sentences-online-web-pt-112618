@@ -15,9 +15,7 @@ class String
   end
 
   def count_sentences
-    sentences = self.split(/\.|\?|\!!/)
+    sentences = self.split(/\.|\?|\!!/) #I feel like I Cheated with this Regex
     sentences.count
   end
-  #binding.pry 
-  #|\...
 end
