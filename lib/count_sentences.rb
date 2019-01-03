@@ -19,6 +19,6 @@ class String
     #(/\.|\?|\!/)
     sentences.count
   end
-  binding.pry 
+  #binding.pry 
   #|\...
 end
